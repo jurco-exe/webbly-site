@@ -1,0 +1,64 @@
+body .navbar-links a {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+body #hero-section {
+  background: url("../../assets/img/main-wallpaper.jpg.jpg");
+  /* Set a specific height */
+  min-height: 43.0625rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #our-philosofy {
+  background: url("../../assets/img/blur-prf.jpg");
+  /* Set a specific height */
+  min-height: 33.625rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #featured-products {
+  background-color: #ffffff !important;
+  color: #0a1c36 !important;
+}
+body #tag {
+  background: url("../../assets/img/blur-prf2.jpg");
+  /* Set a specific height */
+  min-height: 21.21875rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body footer {
+  height: 15rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a1c36 !important;
+  color: #ffffff !important;
+}
+body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+body li {
+  list-style: none !important;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+@import '../abstracts/variables';
+
+body {
+	.navbar-links {
+		a {
+			font-size: 0.9rem;
+			font-weight: 300;
+		}
+	}
+
+	#hero-section {
+		background: url('../../assets/img/main-wallpaper.jpg.jpg');
+		/* Set a specific height */
+		min-height: 43.0625rem;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#our-philosofy {
+		background: url('../../assets/img/blur-prf.jpg');
+		/* Set a specific height */
+		min-height: 33.625rem;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#featured-products {
+		background-color: $white;
+		color: $main-blue;
+	}
+
+	#tag {
+		background: url('../../assets/img/blur-prf2.jpg');
+		/* Set a specific height */
+		min-height: 21.21875rem;
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	footer {
+		height: 15rem;
+	}
+}

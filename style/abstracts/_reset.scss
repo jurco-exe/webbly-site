@@ -1,5 +1,26 @@
+@import './variables';
+@import './mixins';
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: $main-blue;
+	color: $white;
+	ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	a {
+		text-decoration: none !important;
+		color: $white;
+	}
+
+	li {
+		list-style: none !important;
+	}
 }
