@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <?php @include './components/common/header.php' ?>
-</head>
+<?php @include './components/common/header.php' ?>
 
 <body>
   <section id="hero-section">
@@ -46,7 +37,7 @@
   <section id="featured-products" class="py-5">
     <div class="container">
       <div class="row text-center d-flex gap-3 mb-5">
-        <h1>featured-products</h1>
+        <h1>Featured products</h1>
         <p>Includes free shipping (US only)</p>
       </div>
       <div class="row gap-3">

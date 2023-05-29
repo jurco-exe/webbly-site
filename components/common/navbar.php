@@ -1,4 +1,4 @@
-<div class="container-fluid px-5 d-flex justify-content-between">
+<div class="container-fluid px-5 d-flex justify-content-between position-sticky">
   <div class="navbar-logo d-flex justify-content-center align-items-center pt-2">
     <h2>HUGO BOSS</h2>
   </div>

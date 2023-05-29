@@ -1,10 +1,40 @@
 @import '../abstracts/variables';
 
 body {
+	.navbar-logo {
+		h2 {
+			font-size: 1.2rem;
+			font-weight: 700;
+			color: #555657;
+		}
+	}
 	.navbar-links {
 		a {
 			font-size: 0.9rem;
-			font-weight: 300;
+			font-weight: 400;
+
+			&:active {
+				border: 1px solid $white;
+			}
+		}
+	}
+
+	#premium-collection {
+		h3 {
+			font-size: 1.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 1rem;
+			font-weight: 400;
+			font-style: italic;
+		}
+
+		.img-thumbnail {
+			background-color: transparent !important;
+			border: transparent !important;
+			height: 100%;
 		}
 	}
 
@@ -30,11 +60,23 @@ body {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+
+		h1 {
+			font-size: 1.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
 	}
 
 	#featured-products {
 		background-color: $white;
 		color: $main-blue;
+
+		h1 {
+			font-size: 1.7rem;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
 	}
 
 	#tag {
@@ -47,6 +89,23 @@ body {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		a {
+			background-color: #262423;
+			color: $white;
+			padding: 0.65rem 1rem;
+			border-radius: 0.2rem;
+			margin: 0 0 1.3rem 0;
+			font-weight: 700;
+			font-size: 1.1rem;
+		}
+		h1 {
+			font-size: 2rem;
+			font-weight: 700;
+		}
+		p {
+			margin: 0.85rem 0 0 0;
+			color: #fadecd;
+		}
 	}
 
 	footer {

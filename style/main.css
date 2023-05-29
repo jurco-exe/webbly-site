@@ -1,6 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body .navbar-logo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555657;
+}
 body .navbar-links a {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 400;
+}
+body .navbar-links a:active {
+  border: 1px solid #ffffff !important;
+}
+body #premium-collection h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body #premium-collection p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+body #premium-collection .img-thumbnail {
+  background-color: transparent !important;
+  border: transparent !important;
+  height: 100%;
 }
 body #hero-section {
   background: url("../../assets/img/main-wallpaper.jpg.jpg");
@@ -22,9 +46,19 @@ body #our-philosofy {
   background-repeat: no-repeat;
   background-size: cover;
 }
+body #our-philosofy h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 body #featured-products {
   background-color: #ffffff !important;
   color: #0a1c36 !important;
+}
+body #featured-products h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 body #tag {
   background: url("../../assets/img/blur-prf2.jpg");
@@ -36,6 +70,23 @@ body #tag {
   background-repeat: no-repeat;
   background-size: cover;
 }
+body #tag a {
+  background-color: #262423;
+  color: #ffffff !important;
+  padding: 0.65rem 1rem;
+  border-radius: 0.2rem;
+  margin: 0 0 1.3rem 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+body #tag h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+body #tag p {
+  margin: 0.85rem 0 0 0;
+  color: #fadecd;
+}
 body footer {
   height: 15rem;
 }
@@ -44,6 +95,7 @@ body footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 body {
