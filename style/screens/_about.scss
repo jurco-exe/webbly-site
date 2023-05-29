@@ -1,6 +1,22 @@
+@import '../abstracts/abstracts';
 .about-class {
+	.img-thumbnail {
+		background-color: none !important;
+		border: none !important;
+	}
+	.about-navbar {
+		background-color: $white;
+		a {
+			color: $main-blue;
+		}
+	}
+
 	#about-us {
 		.container {
+			display: flex;
+			flex-direction: column;
+			padding: 5rem;
+			gap: 5rem;
 			.row {
 				display: flex;
 				flex-direction: column;
@@ -11,6 +27,58 @@
 			.gridik {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+
+	#headquarter {
+		background-color: white;
+		color: $main-blue;
+		padding: 8rem 0 !important;
+		.container {
+			.wrapper {
+				align-content: center;
+				justify-items: center;
+				align-items: center;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+
+	#our-designs {
+		.wrapper {
+			display: grid;
+			margin: 0 10rem;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+
+			.container-left-long {
+				grid-column: 1/2;
+				grid-row: 1/3;
+			}
+
+			.container-right-up {
+				grid-column: 2/4;
+				grid-row: 1/2;
+			}
+
+			.container-right-down {
+				grid-column: 2/4;
+				grid-row: 2/3;
+			}
+
+			.container-right-up img,
+			.container-right-down img {
+				width: 543px;
+				height: 305px;
+				object-fit: cover;
+			}
+
+			.container-left-long img {
+				width: 423px;
+				height: 632px;
+				object-fit: cover;
 			}
 		}
 	}
