@@ -1,0 +1,17 @@
+.about-class {
+	#about-us {
+		.container {
+			.row {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				text-align: center;
+			}
+
+			.gridik {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+}

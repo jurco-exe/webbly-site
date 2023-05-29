@@ -1,6 +1,12 @@
 @import '../abstracts/variables';
 
 body {
+	.navbar {
+		position: fixed;
+		top: 0;
+		// background-color: #fff;
+		z-index: 1000;
+	}
 	.navbar-logo {
 		h2 {
 			font-size: 1.2rem;
@@ -14,7 +20,7 @@ body {
 			font-weight: 400;
 
 			&:active {
-				border: 1px solid $white;
+				// border: 1px solid $white;
 			}
 		}
 	}
