@@ -75,6 +75,7 @@ body {
 	}
 
 	#featured-products {
+		padding: 7rem 0 !important;
 		background-color: $white;
 		color: $main-blue;
 
@@ -82,6 +83,49 @@ body {
 			font-size: 1.7rem;
 			font-weight: 700;
 			text-transform: uppercase;
+		}
+
+		.container {
+			.wrapper {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1rem;
+				.c1 {
+					grid-column: 1/2;
+				}
+
+				.c2 {
+					grid-column: 2/3;
+				}
+
+				.c3 {
+					grid-column: 3/4;
+				}
+
+				.card {
+					border: transparent;
+				}
+
+				.card-body {
+					border: transparent !important;
+					display: flex;
+					flex-direction: column;
+					gap: 2rem;
+					margin: auto;
+					text-align: center;
+					h3 {
+						font-size: 1.3rem;
+						font-weight: 700;
+						color: $main-blue !important;
+					}
+					a {
+						border: 1px solid black;
+						color: black;
+						font-size: 0.8rem;
+						padding: 0.8rem 1.2rem;
+					}
+				}
+			}
 		}
 	}
 

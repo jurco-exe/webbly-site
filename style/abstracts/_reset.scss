@@ -14,6 +14,16 @@ body {
 	background-color: $main-blue;
 	color: $white;
 
+	.active {
+		border: 1px solid $main-blue;
+		padding: 0.5rem 1rem;
+	}
+
+	.active2 {
+		border: 1px solid $white;
+		padding: 0.5rem 1rem;
+	}
+
 	.img-thumbnail {
 		background-color: transparent !important;
 		border: transparent !important;
@@ -23,6 +33,13 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		li {
+			a {
+				text-transform: uppercase;
+				font-size: 0.75rem !important;
+			}
+		}
 	}
 
 	a {

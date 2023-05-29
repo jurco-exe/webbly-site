@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,14 @@ body {
   background-color: #0a1c36 !important;
   color: #ffffff !important;
 }
+body .active {
+  border: 1px solid #0a1c36 !important;
+  padding: 0.5rem 1rem;
+}
+body .active2 {
+  border: 1px solid #ffffff !important;
+  padding: 0.5rem 1rem;
+}
 body .img-thumbnail {
   background-color: transparent !important;
   border: transparent !important;
@@ -20,6 +29,10 @@ body ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body ul li a {
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
 }
 body a {
   text-decoration: none !important;
@@ -51,9 +64,25 @@ body li {
   gap: 1rem;
   text-align: center;
 }
+.about-class #about-us .container .row h3 {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.about-class #about-us .container .row p {
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
 .about-class #about-us .container .gridik {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+.about-class #about-us .container .gridik .column1 {
+  margin-left: 0.7rem !important;
+}
+.about-class #about-us .container .gridik .column2 {
+  margin-left: -0.7rem !important;
 }
 .about-class #headquarter {
   background-color: white;
@@ -67,9 +96,31 @@ body li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.about-class #headquarter .container .wrapper .left-col {
+  text-align: center;
+}
+.about-class #headquarter .container .wrapper .left-col h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 3rem 0;
+}
+.about-class #headquarter .container .wrapper .left-col p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 2rem 0 0 0;
+  line-height: 1.8rem;
+}
+.about-class #headquarter .container .wrapper .right-col {
+  margin: 0 2rem 0 0;
+}
+.about-class #our-designs .container h3 {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 .about-class #our-designs .wrapper {
   display: grid;
-  margin: 0 10rem;
+  margin: 2rem 10rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -95,6 +146,160 @@ body li {
   width: 423px;
   height: 632px;
   object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  background-color: #0a1c36 !important;
+  color: #ffffff !important;
+}
+body .active {
+  border: 1px solid #0a1c36 !important;
+  padding: 0.5rem 1rem;
+}
+body .active2 {
+  border: 1px solid #ffffff !important;
+  padding: 0.5rem 1rem;
+}
+body .img-thumbnail {
+  background-color: transparent !important;
+  border: transparent !important;
+}
+body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body ul li a {
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+}
+body a {
+  text-decoration: none !important;
+  color: #fff;
+}
+body li {
+  list-style: none !important;
+}
+
+.contact-class {
+  background-color: #ffffff !important;
+}
+.contact-class .container {
+  padding: 0rem 0 0 0;
+}
+.contact-class .about-navbar {
+  background-color: #ffffff !important;
+}
+.contact-class .about-navbar a {
+  color: #0a1c36 !important;
+}
+.contact-class .contact-form {
+  margin: 1rem 0 0 0;
+  display: grid;
+  grid-template-columns: 3;
+}
+.contact-class .contact-form .left-wrapper {
+  grid-column: 1/2;
+}
+.contact-class .contact-form .right-wrapper {
+  grid-column: 2/3;
+}
+.contact-class .left-wrapper {
+  padding: 0 0 0 6rem;
+}
+.contact-class .text-component {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 0 1.5rem 0;
+}
+.contact-class .text-component h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.contact-class .text-component p {
+  font-style: normal;
+}
+.contact-class .form-group {
+  margin-bottom: 20px;
+}
+.contact-class .form-group p {
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.contact-class label {
+  display: block;
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: black;
+}
+.contact-class input[type=text],
+.contact-class input[type=email],
+.contact-class input[type=checkbox] {
+  border: 1px solid grey;
+  padding: 8px;
+  color: grey;
+}
+.contact-class .check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 2rem 0 0;
+}
+.contact-class input[type=email] {
+  width: 70%;
+}
+.contact-class #first-name {
+  width: 30%;
+}
+.contact-class #last-name {
+  width: 45%;
+}
+.contact-class input[type=text]:hover,
+.contact-class input[type=email]:hover,
+.contact-class input[type=checkbox]:hover {
+  border: 1px solid black;
+}
+.contact-class input[type=checkbox] {
+  margin-top: 5px;
+}
+.contact-class input[type=checkbox]:hover + label::before {
+  color: red;
+}
+.contact-class label.required-field::after {
+  content: "*";
+  color: red;
+}
+.contact-class p {
+  font-style: italic;
+  color: black;
+}
+.contact-class .input-group {
+  display: flex;
+  gap: 10px;
+}
+.contact-class button[type=submit] {
+  background-color: transparent;
+  font-size: 0.8rem;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 35px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.contact-class button[type=submit]:hover {
+  background-color: #000000;
+  color: white;
 }
 
 body .navbar {
@@ -152,6 +357,7 @@ body #our-philosofy h1 {
   text-transform: uppercase;
 }
 body #featured-products {
+  padding: 7rem 0 !important;
   background-color: #ffffff !important;
   color: #0a1c36 !important;
 }
@@ -159,6 +365,42 @@ body #featured-products h1 {
   font-size: 1.7rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+body #featured-products .container .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+body #featured-products .container .wrapper .c1 {
+  grid-column: 1/2;
+}
+body #featured-products .container .wrapper .c2 {
+  grid-column: 2/3;
+}
+body #featured-products .container .wrapper .c3 {
+  grid-column: 3/4;
+}
+body #featured-products .container .wrapper .card {
+  border: transparent;
+}
+body #featured-products .container .wrapper .card-body {
+  border: transparent !important;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: auto;
+  text-align: center;
+}
+body #featured-products .container .wrapper .card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0a1c36 !important !important;
+}
+body #featured-products .container .wrapper .card-body a {
+  border: 1px solid black;
+  color: black;
+  font-size: 0.8rem;
+  padding: 0.8rem 1.2rem;
 }
 body #tag {
   background: url("../../assets/img/blur-prf2.jpg");
@@ -202,6 +444,14 @@ body {
   background-color: #0a1c36 !important;
   color: #ffffff !important;
 }
+body .active {
+  border: 1px solid #0a1c36 !important;
+  padding: 0.5rem 1rem;
+}
+body .active2 {
+  border: 1px solid #ffffff !important;
+  padding: 0.5rem 1rem;
+}
 body .img-thumbnail {
   background-color: transparent !important;
   border: transparent !important;
@@ -210,6 +460,10 @@ body ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body ul li a {
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
 }
 body a {
   text-decoration: none !important;
@@ -264,6 +518,14 @@ body {
   background-color: #0a1c36 !important;
   color: #ffffff !important;
 }
+body .active {
+  border: 1px solid #0a1c36 !important;
+  padding: 0.5rem 1rem;
+}
+body .active2 {
+  border: 1px solid #ffffff !important;
+  padding: 0.5rem 1rem;
+}
 body .img-thumbnail {
   background-color: transparent !important;
   border: transparent !important;
@@ -272,6 +534,10 @@ body ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body ul li a {
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
 }
 body a {
   text-decoration: none !important;

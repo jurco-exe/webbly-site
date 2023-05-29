@@ -3,13 +3,15 @@
 <body class="about-class">
   <div class="container-fluid px-5 d-flex justify-content-between mb-5 navbar position-fixed about-navbar">
     <div class="navbar-logo d-flex justify-content-center align-items-center pt-2">
-      <h2>HUGO BOSS</h2>
+      <a href="../../index.php">
+        <h2>HUGO BOSS</h2>
+      </a>
     </div>
-    <div class="navbar-links d-flex justify-content-center align-items-center pt-4">
+    <div class="navbar-links d-flex justify-content-center align-items-center pt-3">
       <ul class="d-flex list-unstyled gap-5">
         <li><a href="/">Home</a></li>
         <li><a href="../screens/shop.php">Shop</a></li>
-        <li><a href="../screens/about.php">About</a></li>
+        <li><a href="../screens/about.php" class="active">About</a></li>
         <li><a href="../screens/contact.php">Contact</a></li>
       </ul>
     </div>
@@ -29,10 +31,10 @@
         <!-- </div> -->
       </div>
       <div class="row gridik">
-        <div class="column">
+        <div class="column1">
           <img src="./assets/img/aboutus1.jpg" alt="Image 1" class="img-thumbnail" height="800">
         </div>
-        <div class="column">
+        <div class="column2">
           <img src="./assets/img/aboutus2.jpg" alt="Image 1" class="img-thumbnail" height="800">
         </div>
       </div>
@@ -41,10 +43,11 @@
 
   <section id="headquarter" class="py-5">
     <div class="container">
-      <div class="wrapper">
+      <div class="wrapper px-5 ">
         <div class="left-col">
           <h3>OUR HEADQUARTER</h3>
-          <p>Corporate headquarters of Hugo Boss , located in Cupertino, California, United States. It was opened to employees in April 2010, while construction was still underway, and superseded the original headquarters at 1 Infinite Loop, which opened in 1993.</p>
+          <hr>
+          <p>Corporate headquarters of Hugo Boss , located in <br> Cupertino, California, United States. It was opened to <br> employees in April 2010, while construction was still <br> underway, and superseded the original headquarters at 1 <br> Infinite Loop, which opened in 1993.</p>
         </div>
         <div class="right-col">
           <img src="./assets/img/quarter.jpg" alt="Image 1" class="img-thumbnail" height="800">

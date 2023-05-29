@@ -1,0 +1,149 @@
+@import '../abstracts/abstracts';
+
+.contact-class {
+	background-color: $white;
+	.container {
+		padding: 0rem 0 0 0;
+	}
+	.about-navbar {
+		background-color: $white;
+		a {
+			color: $main-blue;
+		}
+	}
+
+	.contact-form {
+		margin: 1rem 0 0 0;
+		display: grid;
+		grid-template-columns: 3;
+
+		.left-wrapper {
+			grid-column: 1/2;
+		}
+
+		.right-wrapper {
+			grid-column: 2/3;
+		}
+	}
+
+	// .text-component {
+	// 	margin: 10rem 0 0 0;
+	// }
+
+	form {
+		// max-width: 400px;
+		// margin: 0 auto;
+		// font-family: Arial, sans-serif;
+	}
+
+	.left-wrapper {
+		padding: 0 0 0 6rem;
+	}
+
+	.text-component {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		margin: 0 0 1.5rem 0;
+		h3 {
+			font-size: 1.5rem;
+			font-weight: 700;
+		}
+		p {
+			font-style: normal;
+		}
+	}
+
+	.form-group {
+		margin-bottom: 20px;
+		p {
+			font-style: italic;
+			text-transform: uppercase;
+			font-size: 0.8rem;
+		}
+	}
+
+	label {
+		display: block;
+		font-weight: bold;
+		font-weight: 400;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	input[type='text'],
+	input[type='email'],
+	input[type='checkbox'] {
+		border: 1px solid grey;
+		padding: 8px;
+		color: grey;
+	}
+
+	.check {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		padding: 0 2rem 0 0;
+	}
+
+	input[type='email'] {
+		width: 70%;
+	}
+
+	#first-name {
+		width: 30%;
+	}
+
+	#last-name {
+		width: 45%;
+	}
+
+	input[type='text']:hover,
+	input[type='email']:hover,
+	input[type='checkbox']:hover {
+		border: 1px solid black;
+	}
+
+	input[type='checkbox'] {
+		margin-top: 5px;
+	}
+
+	input[type='checkbox']:hover + label::before {
+		color: red;
+	}
+
+	label.required-field::after {
+		content: '*';
+		color: red;
+	}
+
+	p {
+		font-style: italic;
+		color: black;
+	}
+
+	.input-group {
+		display: flex;
+		gap: 10px;
+	}
+
+	// .input-group input[type='text'] {
+	// 	flex: 1;
+	// }
+
+	button[type='submit'] {
+		background-color: transparent;
+		font-size: 0.8rem;
+		color: black;
+		border: 1px solid black;
+		padding: 10px 35px;
+		cursor: pointer;
+		transition: all 0.3s;
+	}
+
+	button[type='submit']:hover {
+		background-color: #000000;
+		color: white;
+	}
+}

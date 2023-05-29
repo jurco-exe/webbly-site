@@ -40,18 +40,33 @@
 				<h1>Featured products</h1>
 				<p>Includes free shipping (US only)</p>
 			</div>
-			<div class="row gap-3">
-				<div class="card col-4">
-					<div class="card-header"></div>
-					<div class="card-body"></div>
+			<div class=" wrapper">
+				<div class="card c1 ">
+					<div class="card-header">
+						<img src="./assets/img/hugo-boss-the-scent-2.jpg" alt="Image 3" class="img-thumbnail" height="800">
+					</div>
+					<div class="card-body">
+						<h3>BOSS Rebruta</h3>
+						<a href="">VIEW PRODUCT</a>
+					</div>
 				</div>
-				<div class="card col-4">
-					<div class="card-header"></div>
-					<div class="card-body"></div>
+				<div class="card c2">
+					<div class="card-header">
+						<img src="./assets/img/hugo-boss-the-scent.jpg" alt="Image 3" class="img-thumbnail" height="800">
+					</div>
+					<div class="card-body">
+						<h3>HUGO Fiora</h3>
+						<a href="">VIEW PRODUCT</a>
+					</div>
 				</div>
-				<div class="card col-4">
-					<div class="card-header"></div>
-					<div class="card-body"></div>
+				<div class="card c3">
+					<div class="card-header">
+						<img src="./assets/img/hugo-boss-night.jpg" alt="Image 3" class="img-thumbnail" height="800">
+					</div>
+					<div class="card-body">
+						<h3>BOSS Hugo</h3>
+						<a href="">VIEW PRODUCT</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -69,3 +84,11 @@
 </body>
 
 </html>
+
+
+BOSS Rebruta
+VIEW PRODUCT
+HUGO Fiora
+VIEW PRODUCT
+BOSS Hugo
+VIEW PRODUCT
