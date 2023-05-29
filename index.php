@@ -84,11 +84,3 @@
 </body>
 
 </html>
-
-
-BOSS Rebruta
-VIEW PRODUCT
-HUGO Fiora
-VIEW PRODUCT
-BOSS Hugo
-VIEW PRODUCT
