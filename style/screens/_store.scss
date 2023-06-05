@@ -1,0 +1,79 @@
+.store-class {
+	background-color: #f2f2f2 !important;
+	height: 100vh !important;
+	.container {
+		padding: 0rem 0 0 0;
+	}
+	.store-navbar {
+		// margin: -2.6rem 0 0 0;
+		background-color: $white;
+		a {
+			color: $main-blue;
+		}
+		.navbar-logo {
+			h2 {
+				font-size: 1.2rem;
+				font-weight: 700;
+				color: #555657;
+			}
+		}
+	}
+
+	#store-section {
+		height: 100vh !important;
+		background-color: white;
+		// margin: 2rem 0 0 0;
+		color: black !important;
+
+		img {
+			height: 70%;
+		}
+		i {
+			height: 2rem;
+			width: 2rem;
+		}
+		hr {
+			width: 75% !important;
+		}
+
+		.left-col {
+			padding: 8rem 0 0 0;
+
+			.texts {
+				display: flex;
+				flex-direction: column;
+				// gap: rem;
+				.name {
+					font-weight: 700;
+					font-size: 1.5rem;
+				}
+				.cost {
+					font-weight: 400;
+				}
+			}
+
+			.intertive-wrapper {
+				h5 {
+					font-size: 1rem;
+					font-weight: 400;
+				}
+				input {
+					width: 20%;
+					height: 2.6rem;
+					padding: 0 1rem 0 3rem;
+				}
+			}
+
+			.interactive-wrapper2 {
+				button {
+					background-color: black;
+					padding: 0.8rem 2rem;
+					border: none;
+					color: white;
+					font-size: 0.7rem;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

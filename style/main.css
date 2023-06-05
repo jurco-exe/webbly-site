@@ -195,7 +195,8 @@ body li {
 }
 
 .contact-class {
-  background-color: #ffffff !important;
+  background-color: #f2f2f2 !important;
+  height: 100vh;
 }
 .contact-class .container {
   padding: 0rem 0 0 0;
@@ -550,6 +551,71 @@ body li {
 #shop-body #products .container .card-body a {
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+.store-class {
+  background-color: #f2f2f2 !important;
+  height: 100vh !important;
+}
+.store-class .container {
+  padding: 0rem 0 0 0;
+}
+.store-class .store-navbar {
+  background-color: #ffffff !important;
+}
+.store-class .store-navbar a {
+  color: #0a1c36 !important;
+}
+.store-class .store-navbar .navbar-logo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555657;
+}
+.store-class #store-section {
+  height: 100vh !important;
+  background-color: white;
+  color: black !important;
+}
+.store-class #store-section img {
+  height: 70%;
+}
+.store-class #store-section i {
+  height: 2rem;
+  width: 2rem;
+}
+.store-class #store-section hr {
+  width: 75% !important;
+}
+.store-class #store-section .left-col {
+  padding: 8rem 0 0 0;
+}
+.store-class #store-section .left-col .texts {
+  display: flex;
+  flex-direction: column;
+}
+.store-class #store-section .left-col .texts .name {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.store-class #store-section .left-col .texts .cost {
+  font-weight: 400;
+}
+.store-class #store-section .left-col .intertive-wrapper h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.store-class #store-section .left-col .intertive-wrapper input {
+  width: 20%;
+  height: 2.6rem;
+  padding: 0 1rem 0 3rem;
+}
+.store-class #store-section .left-col .interactive-wrapper2 button {
+  background-color: black;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 400;
 }
 
 * {
