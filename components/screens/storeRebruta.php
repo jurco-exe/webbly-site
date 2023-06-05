@@ -3,16 +3,16 @@
 <body class="store-class">
   <div class="container-fluid px-5 d-flex justify-content-between mb-5 navbar position-fixed store-navbar">
     <div class="navbar-logo d-flex justify-content-center align-items-center pt-2">
-      <a href="../../index.php">
+      <a href="/webbly-hugo-boss/index.php">
         <h2>HUGO BOSS</h2>
       </a>
     </div>
     <div class="navbar-links d-flex justify-content-center align-items-center pt-4">
       <ul class="d-flex list-unstyled gap-5">
-        <li><a href="/">Home</a></li>
-        <li><a href="../screens/shop.php" class="active">Shop</a></li>
-        <li><a href="../screens/about.php">About</a></li>
-        <li><a href="../screens/contact.php">Contact</a></li>
+        <li><a href="/webbly-hugo-boss/index.php">Home</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/shop.php" class="active">Shop</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/about.php">About</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row gap-5">
         <div class="col d-flex justify-content-end align-items-center">
-          <img src="/assets/img/hugo-boss-the-scent.jpg" alt="Image 1" class="img-thumbnail">
+          <img src="/webbly-hugo-boss/assets/img/hugo-boss-the-scent.jpg" alt="Image 1" class="img-thumbnail">
         </div>
         <div class="col left-col d-flex flex-column gap-3">
           <div class="texts">

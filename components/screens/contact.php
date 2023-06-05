@@ -9,10 +9,10 @@
     </div>
     <div class="navbar-links d-flex justify-content-center align-items-center pt-4">
       <ul class="d-flex list-unstyled gap-5">
-        <li><a href="/">Home</a></li>
-        <li><a href="../screens/shop.php">Shop</a></li>
-        <li><a href="../screens/about.php">About</a></li>
-        <li><a href="../screens/contact.php" class="active">Contact</a></li>
+        <li><a href="/webbly-hugo-boss/index.php">Home</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/shop.php">Shop</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/about.php">About</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/contact.php" class="active">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -51,7 +51,7 @@
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-end">
           <div class="right-wrapper d-flex justify-content-center align-items-end">
-            <div class="text-dark d-flex align-items-end"><img src="./assets/img/map.png" alt="Image 1" class="img-thumbnail "></div>
+            <div class="text-dark d-flex align-items-end"><img src="/webbly-hugo-boss/assets/img/map.png" alt="Image 1" class="img-thumbnail "></div>
           </div>
         </div>
       </div>

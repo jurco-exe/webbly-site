@@ -1,4 +1,4 @@
-<?php @include './components/common/header.php' ?>
+<?php @include '/webbly-hugo-boss/components/common/header.php' ?>
 
 <body class="about-class">
   <div class="container-fluid px-5 d-flex justify-content-between mb-5 navbar position-fixed about-navbar">
@@ -9,10 +9,10 @@
     </div>
     <div class="navbar-links d-flex justify-content-center align-items-center pt-3">
       <ul class="d-flex list-unstyled gap-5">
-        <li><a href="/">Home</a></li>
-        <li><a href="../screens/shop.php">Shop</a></li>
-        <li><a href="../screens/about.php" class="active">About</a></li>
-        <li><a href="../screens/contact.php">Contact</a></li>
+        <li><a href="/webbly-hugo-boss/index.php">Home</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/shop.php">Shop</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/about.php" class="active">About</a></li>
+        <li><a href="/webbly-hugo-boss/components/screens/contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -32,10 +32,10 @@
       </div>
       <div class="row gridik">
         <div class="column1">
-          <img src="./assets/img/aboutus1.jpg" alt="Image 1" class="img-thumbnail" height="800">
+          <img src="/webbly-hugo-boss/assets/img/aboutus1.jpg" alt="Image 1" class="img-thumbnail" height="800">
         </div>
         <div class="column2">
-          <img src="./assets/img/aboutus2.jpg" alt="Image 1" class="img-thumbnail" height="800">
+          <img src="/webbly-hugo-boss/assets/img/aboutus2.jpg" alt="Image 1" class="img-thumbnail" height="800">
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
           <p>Corporate headquarters of Hugo Boss , located in <br> Cupertino, California, United States. It was opened to <br> employees in April 2010, while construction was still <br> underway, and superseded the original headquarters at 1 <br> Infinite Loop, which opened in 1993.</p>
         </div>
         <div class="right-col">
-          <img src="./assets/img/quarter.jpg" alt="Image 1" class="img-thumbnail" height="800">
+          <img src="/webbly-hugo-boss/assets/img/quarter.jpg" alt="Image 1" class="img-thumbnail" height="800">
         </div>
       </div>
     </div>
@@ -60,9 +60,9 @@
     <div class="container">
       <h3 class="text-center mb-5">OUR DESIGNS</h3>
       <div class="wrapper">
-        <div class="container-left-long"><img src="./assets/img/container-left.jpg" alt="Image 1" class="img-thumbnail"></div>
-        <div class="container-right-up"><img src="./assets/img/container-right-up.jpg" alt="Image 1" class="img-thumbnail"></div>
-        <div class="container-right-down"><img src="./assets/img/container-right-down.jpg" alt="Image 1" class="img-thumbnail"></div>
+        <div class="container-left-long"><img src="/webbly-hugo-boss/assets/img/container-left.jpg" alt="Image 1" class="img-thumbnail"></div>
+        <div class="container-right-up"><img src="/webbly-hugo-boss/assets/img/container-right-up.jpg" alt="Image 1" class="img-thumbnail"></div>
+        <div class="container-right-down"><img src="/webbly-hugo-boss/assets/img/container-right-down.jpg" alt="Image 1" class="img-thumbnail"></div>
       </div>
     </div>
   </section>
