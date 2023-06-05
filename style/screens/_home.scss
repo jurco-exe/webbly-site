@@ -1,28 +1,49 @@
 @import '../abstracts/variables';
 
 body {
-	.navbar {
-		position: fixed;
-		top: 0;
-		// background-color: #fff;
-		z-index: 1000;
-	}
-	.navbar-logo {
-		h2 {
-			font-size: 1.2rem;
-			font-weight: 700;
-			color: #555657;
+	.headeris {
+		.navbar {
+			position: fixed;
+			top: 0;
+			background-color: transparent; /* Set the initial background color to transparent */
+			z-index: 1000;
 		}
-	}
-	.navbar-links {
-		a {
-			font-size: 0.9rem;
-			font-weight: 400;
 
-			&:active {
-				// border: 1px solid $white;
+		.navbar-logo {
+			h2 {
+				font-size: 1.2rem;
+				font-weight: 700;
+				color: #555657;
 			}
 		}
+
+		.navbar-links {
+			a {
+				font-size: 0.9rem;
+				font-weight: 400;
+				border: none;
+				color: white;
+
+				&.active2 {
+					// border-bottom: 2px solid #000;
+				}
+			}
+		}
+	}
+
+	.headeris2 {
+		background-color: #fff; /* Change the background color to white when scrolled */
+		transition: all 0.3s;
+		z-index: 1000;
+
+		.active2 {
+			border: 1px solid #000 !important;
+		}
+	}
+
+	.navbar-links a {
+		// border: 1px solid #000; /* Add black border to links when scrolled */
+		color: #000; /* Change link color to black when scrolled */
 	}
 
 	#premium-collection {
@@ -84,6 +105,10 @@ body {
 			font-weight: 700;
 			text-transform: uppercase;
 		}
+		p {
+			font-style: italic;
+			font-weight: 500;
+		}
 
 		.container {
 			.wrapper {
@@ -104,6 +129,10 @@ body {
 
 				.card {
 					border: transparent;
+				}
+
+				.card-header {
+					background: transparent;
 				}
 
 				.card-body {

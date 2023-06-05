@@ -302,19 +302,33 @@ body li {
   color: white;
 }
 
-body .navbar {
+body .headeris .navbar {
   position: fixed;
   top: 0;
+  background-color: transparent; /* Set the initial background color to transparent */
   z-index: 1000;
 }
-body .navbar-logo h2 {
+body .headeris .navbar-logo h2 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #555657;
 }
-body .navbar-links a {
+body .headeris .navbar-links a {
   font-size: 0.9rem;
   font-weight: 400;
+  border: none;
+  color: white;
+}
+body .headeris2 {
+  background-color: #fff; /* Change the background color to white when scrolled */
+  transition: all 0.3s;
+  z-index: 1000;
+}
+body .headeris2 .active2 {
+  border: 1px solid #000 !important;
+}
+body .navbar-links a {
+  color: #000; /* Change link color to black when scrolled */
 }
 body #premium-collection h3 {
   font-size: 1.7rem;
@@ -366,6 +380,10 @@ body #featured-products h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+body #featured-products p {
+  font-style: italic;
+  font-weight: 500;
+}
 body #featured-products .container .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -382,6 +400,9 @@ body #featured-products .container .wrapper .c3 {
 }
 body #featured-products .container .wrapper .card {
   border: transparent;
+}
+body #featured-products .container .wrapper .card-header {
+  background: transparent;
 }
 body #featured-products .container .wrapper .card-body {
   border: transparent !important;
