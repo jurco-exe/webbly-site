@@ -5,10 +5,17 @@
 	.container {
 		padding: 0rem 0 0 0;
 	}
-	.about-navbar {
+	.contact-navbar {
 		background-color: $white;
 		a {
 			color: $main-blue;
+		}
+		.navbar-logo {
+			h2 {
+				font-size: 1.2rem;
+				font-weight: 700;
+				color: #555657;
+			}
 		}
 	}
 
@@ -143,7 +150,7 @@
 	}
 
 	button[type='submit']:hover {
-		background-color: #000000;
-		color: white;
+		background-color: #e7e7e7;
+		color: black;
 	}
 }

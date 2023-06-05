@@ -200,11 +200,16 @@ body li {
 .contact-class .container {
   padding: 0rem 0 0 0;
 }
-.contact-class .about-navbar {
+.contact-class .contact-navbar {
   background-color: #ffffff !important;
 }
-.contact-class .about-navbar a {
+.contact-class .contact-navbar a {
   color: #0a1c36 !important;
+}
+.contact-class .contact-navbar .navbar-logo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555657;
 }
 .contact-class .contact-form {
   margin: 1rem 0 0 0;
@@ -304,8 +309,8 @@ body li {
   transition: all 0.3s;
 }
 .contact-class button[type=submit]:hover {
-  background-color: #000000;
-  color: white;
+  background-color: #e7e7e7;
+  color: black;
 }
 
 body .headeris .navbar {

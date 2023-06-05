@@ -1,7 +1,7 @@
 <?php @include './components/common/header.php' ?>
 
 <body class="contact-class">
-  <div class="container-fluid px-5 d-flex justify-content-between mb-5 navbar position-fixed about-navbar">
+  <div class="container-fluid px-5 d-flex justify-content-between mb-5 navbar position-fixed contact-navbar">
     <div class="navbar-logo d-flex justify-content-center align-items-center pt-2">
       <a href="../../index.php">
         <h2>HUGO BOSS</h2>
