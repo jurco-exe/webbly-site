@@ -47,10 +47,16 @@ body li {
   border: none !important;
 }
 .about-class .about-navbar {
+  margin: -3rem 0 0 0;
   background-color: #ffffff !important;
 }
 .about-class .about-navbar a {
   color: #0a1c36 !important;
+}
+.about-class .about-navbar .navbar-logo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555657;
 }
 .about-class #about-us .container {
   display: flex;
