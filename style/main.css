@@ -307,6 +307,7 @@ body .headeris .navbar {
   top: 0;
   background-color: transparent; /* Set the initial background color to transparent */
   z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 body .headeris .navbar-logo h2 {
   font-size: 1.2rem;
@@ -496,13 +497,24 @@ body li {
 
 #shop-body {
   background-color: #f2f2f2 !important;
-  height: 100;
+  height: 100vh;
+}
+#shop-body .navbar {
+  background-color: #ffffff;
 }
 #shop-body .navbar .navbar-links ul li a {
   color: #0a1c36 !important !important;
 }
+#shop-body .navbar-logo h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #555657;
+}
 #shop-body #products {
   background-color: #ffffff;
+  margin-top: -3rem;
+  height: 35rem;
+  padding: 1rem 0 0 0;
 }
 #shop-body #products .container img {
   border: none !important;
@@ -514,6 +526,7 @@ body li {
 #shop-body #products .container .card-header {
   border: transparent !important;
   border: none !important;
+  background: transparent !important;
 }
 #shop-body #products .container .card-body {
   border: transparent !important;
